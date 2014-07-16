@@ -8,7 +8,7 @@ CrackingTheCodingInterview
   <li>Stacks and Queues (complete) - c++</li>
   <li>Trees and Graphs (4.1) - c++</li>
   <li>Recursion (complete) - c++</li>
-  <li>Sorting and Searching (9.1, 9.2, 9.3) - c++
+  <li>Sorting and Searching (9.1, 9.2, 9.3) - c++<br>
     - This file also has an implementation of:<br>
       - Bubble Sort<br>
       - Selection Sort<br>
