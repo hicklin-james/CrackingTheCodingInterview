@@ -3,12 +3,12 @@ CrackingTheCodingInterview
 
 <p>This repo contains solutions to sections:</p>
   <ol>
-  <li>Arrays and Strings (complete)</li>
-  <li>Linked Lists (complete)</li>
-  <li>Stacks and Queues (complete)</li>
-  <li>Trees and Graphs (4.1)</li>
-  <li>Recursion (complete)</li>
-  <li>Sorting and Searching (9.1, 9.2, 9.3)
+  <li>Arrays and Strings (complete) - java</li>
+  <li>Linked Lists (complete) - c++</li>
+  <li>Stacks and Queues (complete) - c++</li>
+  <li>Trees and Graphs (4.1) - c++</li>
+  <li>Recursion (complete) - c++</li>
+  <li>Sorting and Searching (9.1, 9.2, 9.3) - c++
     - This file also has an implementation of:<br>
       - Bubble Sort<br>
       - Selection Sort<br>
