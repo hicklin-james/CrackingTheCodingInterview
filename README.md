@@ -10,11 +10,11 @@ CrackingTheCodingInterview
   <li>Recursion (complete) - c++</li>
   <li>Sorting and Searching (9.1, 9.2, 9.3) - c++<br>
     - This file also has an implementation of:<br>
-      - Bubble Sort<br>
-      - Selection Sort<br>
-      - Merge Sort<br>
-      - Quick Sort<br>
-      - Bucket Sort<br>
+      &nbsp;&nbsp;- Bubble Sort<br>
+      &nbsp;&nbsp;- Selection Sort<br>
+      &nbsp;&nbsp;- Merge Sort<br>
+      &nbsp;&nbsp;- Quick Sort<br>
+      &nbsp;&nbsp;- Bucket Sort<br>
   </li>
   </ol>
       
