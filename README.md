@@ -1,7 +1,7 @@
 CrackingTheCodingInterview
 ==========================
 
-<p>This repo contains solutions to sections:</p>
+<p>This repo contains solutions to the following sections of Gayle Laakmann <u>Cracking the Coding Interview, 4th Edition</u></p>
   <ol>
   <li>Arrays and Strings (complete) - java</li>
   <li>Linked Lists (complete) - c++</li>
