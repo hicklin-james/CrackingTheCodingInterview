@@ -6,7 +6,7 @@ CrackingTheCodingInterview
   <li>Arrays and Strings (complete) - java</li>
   <li>Linked Lists (complete) - c++</li>
   <li>Stacks and Queues (complete) - c++</li>
-  <li>Trees and Graphs (4.1, 4.2, 4.3, 4.4) - c++</li>
+  <li>Trees and Graphs (complete) - c++</li>
   <li>Recursion (complete) - c++</li>
   <li>Sorting and Searching (9.1, 9.2, 9.3) - c++<br>
     - This file also has an implementation of:<br>
