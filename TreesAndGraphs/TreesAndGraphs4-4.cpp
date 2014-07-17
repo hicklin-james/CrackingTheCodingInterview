@@ -58,6 +58,7 @@ Node* buildTree(vector<int> array, int low, int high) {
 	}
 }
 
+// Code to pretty print a tree
 void displayTree(Node* root){
 	const int box_size = 3;
 	queue<Node*> q;

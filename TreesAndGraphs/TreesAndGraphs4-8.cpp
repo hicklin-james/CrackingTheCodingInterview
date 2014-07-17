@@ -13,6 +13,8 @@ public:
 	Node *right;
 };
 
+//------------------------------Setup functions from 4.3-------------------------------//
+
 int myheight(Node *node) {
 	if (node == NULL)
 		return 0;
@@ -40,6 +42,7 @@ Node* buildTree(vector<int> array, int low, int high) {
 	}
 }
 
+// Code to pretty print a tree
 void displayTree(Node* root){
 	const int box_size = 3;
 	queue<Node*> q;
@@ -80,6 +83,36 @@ void displayTree(Node* root){
 	}
 }
 
+//------------------------------4.8------------------------------//
+/**
+You are given a binary tree in which each node contains a value. Design 
+an algorithm to print all paths which sum up to that value. Note that it 
+can be any path in the tree - it does not have to start at the root.
+**/
+
+void printPaths(Node *node, int n, int current, vector<int> buffer) {
+
+	if (node == NULL)
+		return;
+
+	current += node->value;
+
+	//cout << "n: " << n << " current: " << current << "\n";
+
+	if (current == n) {
+		cout << "Path: ";
+		for (int i = 0; i < buffer.size(); i++) {
+			cout << "->" << buffer.at(i);
+		}
+		cout << "\n";
+	}
+	buffer.push_back(node->value);
+	printPaths(node->left, n, current, buffer);
+	printPaths(node->right, n, current, buffer);
+
+	return;
+}
+
 int main() {
 	vector<int> sorted;
 	for (int i = 0; i < 70; i++) {
@@ -88,4 +121,8 @@ int main() {
 
 	Node *balancedTree = buildTree(sorted, 0, sorted.size()-1);
 	displayTree(balancedTree);
+
+	vector<int> buffer;
+
+	printPaths(balancedTree, 95, 0, buffer);
 }

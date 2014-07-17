@@ -300,7 +300,7 @@ public class ArraysAndStringsProblems {
 
 	// ------------------------ 1.7 ------------------------ //	
 	// Note that this solution is not optimal - a better way to do it would be to
-	// use make two passes over the matrix - but in the first pass the only thing you
+	// make two passes over the matrix - but in the first pass the only thing you
 	// need to do is keep track of which rows have a 0 and which columns have a 0. Then
 	// in the second pass you can just set those rows and columns to 0.
 
